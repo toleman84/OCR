@@ -12,7 +12,7 @@ def test_example_function():
     """
 
     # Load the image
-    image_path = '/mnt/c/Users/Usuario/Desktop/ocr.png'
+    image_path = '/home/OCR/ocr.png'
     image = Image.open(image_path)
 
     # Use pytesseract to do OCR on the image
